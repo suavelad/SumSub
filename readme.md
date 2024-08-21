@@ -31,7 +31,8 @@
   - Phone
   - Email
   - ApplicantId
-  - VerificationStatus
+  - VerificationStatus   // True(GREEN) or False(RED)
+  - VerificationComment // if verification fails
   - Verified Document Count  //To track when all the documents has been uploaded
   - AllDocumentUploaded 
 

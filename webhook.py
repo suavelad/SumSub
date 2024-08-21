@@ -68,8 +68,8 @@ def process_webhook(request):
         logger.error(f"Error processing webhook: {e}")
         return False
 
-def handle_applicant_reviewed(payload):
-    # Process the applicantReviewed event
+def handle_applicant_created(payload):
+    # Process the applicantCreated event
     # Sample Response: 
     #     {
     #         "applicantId": "5c9e177b0a975a6eeccf5960",
@@ -83,13 +83,13 @@ def handle_applicant_reviewed(payload):
     #         "createdAtMs": "2020-02-21 13:23:19.002",
     #         "clientId": "coolClientId"
     #     }
-    #TODO: Save to DB
+    #TODO: Save to DB 
 
-    logger.info(f"Applicant reviewed: {payload}")
+    logger.info(f"Applicant created payload:: {payload}")
     return True
 
-def handle_applicant_created(payload):
-    # Process the applicantCreated event
+def handle_applicant_reviewed(payload):
+    # Process the applicantReviewed event
 
     # Sample Success Response: 
         # {
@@ -125,9 +125,9 @@ def handle_applicant_created(payload):
         #     "createdAtMs": "2020-02-21 13:23:19.001"
         #     }
 
-    #TODO: Save to DB, verify the result
+    #TODO: Save to DB  (save the json and update the user verification review statu and comments)
 
-    logger.info(f"Applicant created: {payload}")
+    logger.info(f"Applicant reviewed payload: {payload}")
     return True
 
 
