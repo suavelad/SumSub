@@ -45,7 +45,17 @@
 
 
 ## Applicant SumSub Process
-    - Create  Applicant
-    - Applicant upload document
-    - Alert Sumsub to start the verification (request applicant check)
-    - Verify applicant verification status 
+   * You can review the get started guide before you start: https://docs.sumsub.com/reference/get-started-with-api
+    - Create  Applicant (See this: https://docs.sumsub.com/reference/create-applicant)
+    
+    - Applicant upload document (See this: https://docs.sumsub.com/reference/add-id-documents)
+    
+    - Alert SumSub to start the verification (request applicant check) (Nice to have. Can be used if a mistake was detected, also it will change the status to pending. check the documentation for more details: https://docs.sumsub.com/reference/request-applicant-check )
+    
+    - Verify applicant verification status (See this: https://docs.sumsub.com/reference/get-applicant-verification-steps-status)
+
+
+    - Setup Webhook : This will help you get verification results (See this: https://docs.sumsub.com/docs/webhooks)
+
+
+
