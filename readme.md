@@ -5,7 +5,7 @@
 
 
 
-## DB Schema
+## Sample SQL DB Schema 
 
 - User Model
   - UserId
@@ -17,7 +17,7 @@
   - Email
   - ApplicantId
   - VerificationStatus
-  - Verified Document Count 
+  - Verified Document Count  //To track when all the documents has been uploaded
   - AllDocumentUploaded 
 
 
@@ -41,6 +41,7 @@
   - ApplicantId
   - ImageId
   - Document Response JSON
+
 
 
 
