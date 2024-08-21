@@ -1,7 +1,22 @@
-##  SumSub Applicant Creation Flow
+# SUMSUB APPLICANT BASIC IMPLEMENTATION
 
-    - Make the API call the SumSub 
+
+##  SumSub Applicant Flow
+
+  ###### Applicant Creation Flow (I implemented Individual Applicant)
+    - Make the API call the SumSub Create Applicant Endpoint
     - Save the response of the DB (if successful)
+  
+
+  ###### Applicant Document Upload Flow 
+    - Make the API call the SumSub Document Upload Endpoint
+    - Save the response of the DB (if successful)
+    - Check if all document has been uploaded if YES, call the Alert API to notify SumSub so they can commence the verification
+  
+
+  ###### Verification of the Applicant Status
+    - Listen to the webhook to get the status of verification (applicantReviewed webhook) and then save to the DB
+
 
 
 
