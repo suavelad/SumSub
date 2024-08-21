@@ -1,7 +1,7 @@
-##  SumSub Applicant Creation Save to DB
+##  SumSub Applicant Creation Flow
 
     - Make the API call the SumSub 
-    - Save the response of the DB
+    - Save the response of the DB (if successful)
 
 
 
@@ -44,19 +44,23 @@
 
 
 ## Applicant SumSub Process
+
    * You can review the get started guide before you start: https://docs.sumsub.com/reference/get-started-with-api
    
-    - Create  Applicant (See this: https://docs.sumsub.com/reference/create-applicant)
+    - Create  Applicant:
+          (See this: https://docs.sumsub.com/reference/create-applicant)
     
-    - Applicant upload document (See this: https://docs.sumsub.com/reference/add-id-documents)
+    - Applicant upload document:
+          (See this: https://docs.sumsub.com/reference/add-id-documents)
     
-    - Alert SumSub to start the verification (Nice to have. Can be used if a mistake was detected, also it will change 
-            the status to pending. check the documentation for more details: https://docs.sumsub.com/reference/request-applicant-check )
+    - Alert SumSub to start the verification: 
+            Nice to have. Can be used if a mistake was detected, also it will change 
+            the status to pending. check the documentation for more details: https://docs.sumsub.com/reference/request-applicant-check
     
-    - Verify applicant verification status (See this: https://docs.sumsub.com/reference/get-applicant-verification-steps-status)
+    - Verify applicant verification status: 
+            (Check the documentation for more details: https://docs.sumsub.com/reference/get-applicant-verification-steps-status)
 
 
-    - Setup Webhook: This will help you get verification results (See this: https://docs.sumsub.com/docs/webhooks)
-
-
-
+    - Setup Webhook: 
+        This will help you get verification results 
+        (Check the documentation for more details: https://docs.sumsub.com/docs/webhooks)
