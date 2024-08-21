@@ -84,9 +84,12 @@
         This will help you get verification results 
         (Check the documentation for more details: https://docs.sumsub.com/docs/webhooks)
 
+        The event types can be seen here: https://docs.sumsub.com/docs/user-verification-webhooks#payload-examples
+
+        Here I setup the webhook using Flask
 
         
-            SAMPLE WEBHOOK RESPONSE WITH RED:
+            SAMPLE WEBHOOK RESPONSE WITH RED FOR APPLICANT REVIEWED EVENT TYPE:
               {
                 "applicantId": "5cb744200a975a67ed1798a4",
                 "inspectionId": "5cb744200a975a67ed1798a5",
@@ -107,7 +110,7 @@
               }
             
 
-              SAMPLE WEHBOOK RESPONSE WITH GREEN:
+              SAMPLE WEBHOOK RESPONSE WITH GREEN FOR APPLICANT REVIEWED EVENT TYPE::
                   {
                   "applicantId": "5cb56e8e0a975a35f333cb83",
                   "inspectionId": "5cb56e8e0a975a35f333cb84",
