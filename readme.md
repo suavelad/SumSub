@@ -1,5 +1,6 @@
-# SUMSUB APPLICANT BASIC IMPLEMENTATION
-
+# SUMSUB APPLICANT BASIC IMPLEMENTATION (https://sumsub.com)
+  
+  DOCUMENTATION: https://docs.sumsub.com/, https://docs.sumsub.com/docs
 
 ##  SumSub Applicant Flow
 
